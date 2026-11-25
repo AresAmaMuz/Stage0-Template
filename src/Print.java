@@ -16,19 +16,20 @@ System.out.println("It knows this because it knows where it isn't.");
 
     // Define a variable `pi` that is equal to 3.14159.
     // HINT: Pick the correct data types.
-
+double pi = 3.14159;
     // Define a variable `g` that is equal to 10.
-int g = 10; 
+int g = 10;
 
     // Define a variable `mode` that is equal to "autonomous".
 String mode = "autonomous";
 
     // Now, print all three variables in the **same** print statement,
     // separated by spaces.
+System.out.println(pi + " " + g " " + mode)
 
     // Now, change pi to equal 3.142857 (a slightly incorrect approximation of pi
     // equal to 22 divided by 7). Then, print the value of `pi` again.
-double pi = 3.142857; 
+pi = 3.142857; 
 System.out.println(pi);
 
     // Create a variable `degrees` of type `double` and assign it a value of
